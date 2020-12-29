@@ -1,3 +1,5 @@
+--This query brings back table and column names with the specified clause in Oracle SQL Developer
+
 SELECT table_name, column_name 
 FROM all_tab_columns 
 -- Filter to a table that starts with T_
